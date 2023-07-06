@@ -1,0 +1,53 @@
+body {
+    background: #2d2a3d;
+    color: #fff;
+    font-family: "Poppins";
+  }
+.message{
+    margin: 5em 0em 2em;
+    text-align: center;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+
+.computer img, .player img{
+    width: 75%;
+}
+
+.points{
+    justify-content: center;
+    text-align: center;
+    margin: 2em 0em 3em;
+}
+.computerPoints{
+    margin-left: 5em;
+}
+.playerPoints{
+    margin-right: 4em
+}
+.rps{
+    display: flex;
+    margin-top: 3em;
+    justify-content: space-around;
+}
+.rps button {
+    background: none;
+    color: #ffffff;
+    padding: 1em 2em;
+    font-family: "poppins";
+    border: 1px solid #fff;
+    border-radius: 7px;
+    width: 150px;
+    cursor: pointer;
+    outline: none
+}
+
+.rps button:hover{
+    background-color: red;
+    border: 1px red 
+}
